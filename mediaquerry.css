@@ -1,0 +1,182 @@
+
+/* ::::::::::::::::::::::::::::::::::::MEDIA QUERRIES:::::::::::::::::::::::::::::::::::::::::::::: */
+
+/* :::::::::::::::::::::::::::::::::::::::TAB VIEW:::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media screen and (max-width:1023px)
+ {
+  .social-media{
+    display: none;
+ }
+
+aside{
+    display: none;
+     }
+
+ header{
+        margin: 0 1em;
+     }
+.head2 .logo{
+    width: auto;
+}
+.head2{
+    flex-wrap: wrap;
+    align-items: center;
+ }
+
+ .right-nav{
+    display: none;
+ }  
+
+ .navbtn{
+    display:none;
+ }
+
+ .hor-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ .block2{
+    justify-content: center;
+    margin-left: 0em;
+ }
+ .box{
+    margin: 1em 1em;
+ }
+
+ .newproduct{
+    justify-content: center;
+ }
+ .banner_content{
+    width: auto;
+ }
+ .templates{
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .templates2{
+    justify-content: space-around;
+ }
+.aboutsection{
+    flex-wrap: wrap;
+}
+
+.center{
+    width: 100%;
+ } 
+ .navbarbottom{
+    position: sticky;
+    bottom: 1em;
+    background-color: rgb(242, 242, 238);
+ }   
+ }
+
+/* :::::::::::::::::::::::::::::::::::PHONE VIEW::::::::::::::::::::::::::::::::::::::::::::: */
+ @media screen  and  (max-width:767px) {
+    .curandlang{
+        display: none;
+    }
+    .right-nav{
+        display: none;
+    }
+
+    .head1{
+        justify-content: center;
+        margin-left: 1rem;
+    }
+
+   
+
+    .head2{
+        justify-content: center;  
+       
+    }
+
+    .social-media{
+        display: none;
+     }
+
+    
+     .product1{
+        width: 40%;
+     }
+     .banner_content{
+        padding: 5% 10%;
+        opacity: 2px;
+
+      
+      }
+       .banner_content h2{
+          color: var(--main-bg-color);
+          font-size: 1.5em;
+       }
+      
+       .banner_content h1{
+          font-size: 1em;
+       }
+      .banner_content h3 span{
+          font-size: 1rem;
+       }
+      .deal img{
+        display: flex;
+
+      }
+     .bestproduct{
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .about{
+        margin: 0 2rem;
+      }
+       
+     .center{
+        width: 100%;
+        margin: 0.5em;
+     } 
+    
+     .block2{
+        margin-right: 2rem;
+     }
+     .navbarbottom{
+        position: sticky;
+        bottom: 1em;
+        background-color: rgb(242, 242, 238);
+     }
+
+     .templates{
+        margin-left: 1em;
+     }
+
+     .banner{
+        margin-left: 3em;
+     }
+    
+     footer{
+        width: 110%;
+     }
+
+
+
+   
+ }
+
+/* :::::::::::::::::::::::::::::GENERAL SIZE:::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+ @media screen and (min-width: 1023px) {
+    .navbarbottom {
+      display: none;
+    }
+
+    .block2{
+        justify-content: space-between;
+     }
+}
+/* ::::::::::::::::::::::::::::::::::::::END::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
